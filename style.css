@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', serif;
+    background-color: #242631;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+li {
+    padding: 20px;
+    background: white;
+    margin-bottom: 5px;
+}
+
+.item {
+    background-color: white;
+    /*width: 300px;*/
+    height: 100px;
+    margin: 10px;
+    padding: 38px;
+    border-radius: 3px;
+}
+
+.container {
+    text-align: center;
+}
+
+.inactive:hover {
+    background-color: #cacaca;
+}
+
+.subscribed {
+    background-color: red;
+}
+
+.activated {
+    background-color: blue;
+}
